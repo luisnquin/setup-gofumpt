@@ -9,7 +9,7 @@ runs:
     - name: Install gofumpt
       shell: bash
       run: |
-        wget https://github.com/mvdan/gofumpt/releases/download/v0.5.0/gofumpt_v0.5.0_linux_amd64
-        mv gofumpt_v0.5.0_linux_amd64 gofumpt
+        wget https://github.com/mvdan/gofumpt/releases/download/v0.6.0/gofumpt_v0.6.0_linux_amd64
+        mv gofumpt_v0.6.0_linux_amd64 gofumpt
         chmod +x gofumpt
         mv gofumpt /usr/local/bin
